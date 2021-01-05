@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<form>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="num" id="num">
+        <input type="button" class="btn" value="click" onclick="msg()">
+        
+
+    </form>
+    <div id="data"></div>
+    <script>
+        var txtdata=document.getElementById("num");
+        var dataid=document.getElementById("data");
+
+        let mylist=[];
+
+        function msg(e){
+            if(txtdata.value!=null){
+                mylist.push(txtdata.value);
+                for(let i in mylist){
+                    dataid.append("<p>"+ mylist[i]+"</p>");
+                    txt.value==null
+                }
+ 
+            }
+        }
+    </script>
+        
+    </div>
+</body>
+</html>

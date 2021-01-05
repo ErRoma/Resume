@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS example</title>
+    <style>
+        input.btn{
+            padding:10px;
+            margin:2px;
+            color:white;
+            font-weight: bold;
+            border:double;                                                                                                                            
+            border-radius:5px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <input type="button" class="btn" value="click" onclick="msg()">
+        </form>
+    </div>
+    <script>
+        function msg(){
+            alert("allow notification");
+        }
+        document.write("<h1>java script</h1>");
+        </script>
+        <script src="./main.js"></script>
+        <script>
+            //*setInterval(()=>{
+                //document.location="https://www.google.com";
+            //},10000)//
+            
+                     
+        </script>
+        <script>
+            let roma={
+                id:12,
+                name:Roma,
+                salary:40000;
+                isfemale:female,
+                gender:{
+                    m:"male",
+                    f:"female"
+                }
+            };
+            function checkgender(obj){
+                if(obj.isfemale){
+                    return obj.gender.f;
+                }else{
+                    return obj.gender.m;
+                }
+            }
+            document.write(roma.id +" "+roma.name+" "+roma.salary+" "+checkgender(roma))
+        </script>
+</body>
+</html>
+
